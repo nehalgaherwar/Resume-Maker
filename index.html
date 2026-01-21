@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Maker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Resume Maker</h1>
+        <div class="form-container">
+            <form id="resume-form">
+                <h2>Resume Theme</h2>
+                <select id="theme-selector">
+                    <option value="classic">Classic</option>
+                    <option value="modern">Modern</option>
+                    <option value="minimalist">Minimalist</option>
+                </select>
+
+                <h2>Personal Information</h2>
+                <input type="file" id="profile-pic" accept="image/*">
+                <input type="text" id="name" placeholder="Full Name" required>
+                <input type="email" id="email" placeholder="Email" required>
+                <input type="tel" id="phone" placeholder="Phone Number" required>
+                <input type="text" id="address" placeholder="Address" required>
+
+                <h2>Education</h2>
+                <textarea id="education" placeholder="Education details (e.g., Degree, University, Year)" rows="4"></textarea>
+
+                <h2>Work Experience</h2>
+                <textarea id="experience" placeholder="Work experience details" rows="4"></textarea>
+
+                <h2>Skills</h2>
+                <textarea id="skills" placeholder="Skills (comma-separated)" rows="2"></textarea>
+
+                <button type="button" id="print-btn">Print Resume</button>
+            </form>
+        </div>
+        <div class="preview-container">
+            <h2>Resume Preview</h2>
+            <div id="resume-preview">
+                <img id="preview-pic" src="" alt="Profile Picture" style="display: none; width: 100px; height: 100px; border-radius: 50%; margin-bottom: 10px;">
+                <div id="preview-name"></div>
+                <div id="preview-contact"></div>
+                <div id="preview-education"></div>
+                <div id="preview-experience"></div>
+                <div id="preview-skills"></div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

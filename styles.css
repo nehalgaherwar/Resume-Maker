@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.form-container, .preview-container {
+    flex: 1;
+    min-width: 300px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1, h2 {
+    color: #333;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#resume-preview {
+    border: 1px solid #ddd;
+    padding: 30px;
+    background-color: white;
+    min-height: 400px;
+    font-family: 'Times New Roman', serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+#resume-preview #preview-pic {
+    display: block;
+    margin: 0 auto 20px;
+    border: 2px solid #ddd;
+}
+
+#resume-preview #preview-name {
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+    color: #2c3e50;
+}
+
+#resume-preview #preview-contact {
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 20px;
+    color: #7f8c8d;
+}
+
+#resume-preview #preview-education,
+#resume-preview #preview-experience,
+#resume-preview #preview-skills {
+    margin-bottom: 20px;
+}
+
+#resume-preview #preview-education h3,
+#resume-preview #preview-experience h3,
+#resume-preview #preview-skills h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #34495e;
+    border-bottom: 1px solid #bdc3c7;
+    padding-bottom: 5px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+}
