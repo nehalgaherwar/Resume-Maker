@@ -29,4 +29,12 @@ It allows users to enter their personal and professional details, preview the re
 ---
 
 ## 📂 Project Structure
+Resume-Maker/                                                                                                    
+│                                                                                                                  
+├── index.html # Main HTML file                                                                                              
+├── styles.css # Styling and themes                                                                                      
+├── script.js # JavaScript logic                                                                                              
+└── README.md # Project documentation                                                            
+
+----
 
