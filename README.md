@@ -38,3 +38,52 @@ Resume-Maker/
 
 ----
 
+## ▶️ How to Use
+
+1. Clone the repository:
+   ```bash
+   git clone 
+Open index.html in your browser.
+
+Fill in your details:
+
+Personal info
+
+Education
+
+Experience
+
+Skills
+
+Choose a resume theme.
+
+Click Print Resume to print or save as PDF.
+
+-----
+
+# ✨ Future Improvements
+Download resume as PDF
+
+Add multiple education/experience sections
+
+More professional themes
+
+Save resume data in local storage
+
+----
+
+# 🤝 Contributing
+Contributions are welcome!
+Feel free to fork the repository and submit a pull request.
+
+---
+
+# 📄 License
+This project is open-source and free to use.
+
+----
+
+# 👨‍💻 Author
+Nehal Gaherwar
+
+If you like this project, don’t forget to ⭐ the repository!
