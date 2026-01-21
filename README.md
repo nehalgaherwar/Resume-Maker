@@ -42,7 +42,7 @@ Resume-Maker/
 
 1. Clone the repository:
    ```bash
-   git clone 
+   git clone https://github.com/nehalgaherwar/Resume-Maker.git
 Open index.html in your browser.
 
 Fill in your details:
